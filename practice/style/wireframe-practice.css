@@ -67,3 +67,19 @@ footer {
     color:white;
     display: flex;
 }
+
+#image-scroller h1{
+    position: absolute;
+    top: 10%;
+
+}
+
+#image-scroller p{
+    position:absolute;
+    top: 50%;
+    color: white;
+    width: 100%
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 1em;
+}
