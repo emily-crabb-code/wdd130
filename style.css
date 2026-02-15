@@ -2,11 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
 
+header {
+    background-color: forestgreen;
 }
 
 body {
     max-width: 1000px;
+    margin: 0 auto;
+    background-color: tan;
+}
+
+content {
+    max-width: 1600;
     margin: 0 auto;
 }
 
@@ -24,9 +33,32 @@ nav {
     padding: 2em;
 }
 
+
+
+section#hero-msg h1 {
+    text-align: center;
+}
+
+section#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+#background {
+    height: 725px
+}
+
 nav a {
     color: white;
     text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: forestgreen;
 }
 
 main{
@@ -34,6 +66,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2em;
     justify-items: center;
+    text-align: center;
 }
 
 section#blue {

@@ -1,0 +1,19 @@
+/* Add your CSS here to style your valentines day page */
+
+header{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 2em;
+}
+
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+img {
+    max-width: 100%;
+}
