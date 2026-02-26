@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: forestgreen;
+    background-color: #FED7C7;
 }
 
 header img {
@@ -14,13 +14,17 @@ header img {
 }
 
 body {
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: tan;
+    
+    background-color: #9FB1A3;
+}
+
+.bigpic {
+    width: 100%;
+    height: auto;
 }
 
 content {
-    max-width: 1600;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -30,15 +34,13 @@ content {
 }
 
 nav {
-    border: 3px solid #4a4326;
+    border: 3px solid #562C1E;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     justify-items: center;
-    background-color: grey;
+    background-color: #FED7C7;
     padding: 2em;
 }
-
-
 
 section#hero-msg h1 {
     text-align: center;
@@ -57,43 +59,85 @@ section#hero-msg h4 {
 }
 
 nav a {
-    color: white;
+    color: #562C1E;
     text-decoration: none;
     text-align: center;
 }
 
 nav a:hover {
-    background-color: forestgreen;
+    background-color: #9FB1A3;
 }
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2em;
     justify-items: center;
-    text-align: center;
+    
+    
+}
+
+section#blue, section#red, section#green {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    width: 90%;
+    padding: 2em;
+}
+
+section img {
+    width: 100%;
+    height: auto;
 }
 
 section#blue {
-    background: cornflowerblue;
-    grid-column: 3/4;
-    grid-row: 1/2;
+    background: #F7566E;
+    color: #562C1E;
+    justify-items: left;
 }
 
 section#red {
-    background: lightcoral;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    background: #F7566E;
+    color: #562C1E;
+    justify-items: left;
+
 }
 
 section#green {
-    background: lightgreen;
-     grid-column: 1/2;
-     grid-row: 1/2;
+    background: #F7566E;
+    color: #562C1E;
+    justify-items: right;
+    text-align: right;
+    
+}
+
+section#green img {
+    order: 2;
 }
 
 section#aboutme {
     grid-column: 1/4;
     text-align: center;
 
+}
+
+
+@media (max-width: 768px) {
+
+    nav {
+        grid-template-columns: 1fr;
+        gap: 1em;
+        text-align: center;
+    }
+
+    section#blue, section#green, section#red {
+        grid-template-columns: 1fr;
+        width: 95%;
+        text-align: left;
+    }
+
+    section img {
+        width: 100%
+    }
+    
 }
