@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMG_7164__1_-removebg-preview.png">
     <title>Emily Crabb | WDD130 | Home</title>
 </head>
 
@@ -11,45 +12,65 @@
     <header>
         
         <nav>
-            <img src="logo.jpg" alt="Emily Crabb Logo">
+            <a href="index.html"><img src="IMG_7164__1_-removebg-preview.png" alt="Emily Crabb Logo" class="logo"></a>
             <a href="wwr/index.html">White Water Rafting Website</a>
             <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
             <a href="ice/index.html">ICE</a>
             <a href="aboutme.html">About Me</a>
+            <a href="client-report.html">Client Report</a>
         </nav>
     </header>
 
+
+
     <main>
-        <img class="bigpic" src="https://picsum.photos/1650/1000" alt="big pic">
-        <section id="blue">
-            <img src="https://picsum.photos/500" alt="sample image">
-            <div>
-                <h2>Cool Content</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugiat maxime iste modi. Cum iste quas voluptatibus molestias ipsa rerum ut aut debitis. Incidunt fugiat molestiae eius veniam esse numquam.</p>
-            </div>
-        </section>
 
-        <section id="green">
-            <img src="https://picsum.photos/500" alt="sample image">
-            <div>
-                <h2>Cool Content</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugiat maxime iste modi. Cum iste quas voluptatibus molestias ipsa rerum ut aut debitis. Incidunt fugiat molestiae eius veniam esse numqum.</p>
-            </div>
-        </section>
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Hi, I'm Emily</h1>
+        <p>Welcome to my portal — a collection of my web development projects.</p>
+    </section>
 
-        <section id="red">
-            <img src="https://picsum.photos/500" alt="sample image">
-            <div>
-                <h2>Cool Content</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugiat maxime iste modi. Cum iste quas voluptatibus molestias ipsa rerum ut aut debitis. Incidunt fugiat molestiae eius veniam esse numquam.</p>
-            </div>
-        </section>
-<!---
-        <section id="aboutme">
-            <h2>Emily Crabb</h2>
-            <img src="IMG_4243.PNG" alt="Image of me"> -->
-            <footer>&copy; 2026 Emily Crabb</footer>
-        </section>
-    </main>
+    <!-- PORTAL LINKS -->
+    <section class="portal">
+        <h2>My Work</h2>
+
+        <div class="portal-grid">
+
+            <a href="wwr/index.html" class="card">
+                <h3>White Water Rafting</h3>
+                <p>Main project website</p>
+            </a>
+
+            <a href="wwr/site-plan-rafting.html" class="card">
+                <h3>Site Plan</h3>
+                <p>Planning document</p>
+            </a>
+
+            <a href="ice/index.html" class="card">
+                <h3>ICE Challenges</h3>
+                <p>Practice assignments</p>
+            </a>
+
+            <a href="aboutme.html" class="card">
+                <h3>About Me</h3>
+                <p>Learn more about me</p>
+            </a>
+
+            <a href="client-report.html" class="card">
+                <h3>Client Report 
+                <p>Client report for final project</p>
+                </h3>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2026 Emily Crabb
+</footer>
+
 </body>
 </html>
